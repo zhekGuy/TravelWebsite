@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Travel Japan</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/csslogin.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+
+        <a class="main1" href="../FinalAssignment/main.html">TRAVEL JAPAN</a>
+
+        <div class="dropdown">
+            <a class="dropbtn" href="destinations.html">Destinations</a>
+                <div class="dropdown-content">
+                    <a href="destinations.html#targettour1">Tokyo</a>
+                    <a href="destinations.html#targettour2">Kyoto</a>
+                    <a href="destinations.html#targettour3">Osaka</a>
+                    <a href="destinations.html#targettour4">Hiroshima</a>
+                    <a href="destinations.html#targettour5">Nara</a>
+                </div>
+        </div>
+
+        <a class="main3" href="../FinalAssignment/main.html#target3">About Us</a>
+    
+        <a class="main4" href="contact.html">Contact Us</a>
+
+        <a class="login" href="login.html"><i class='fas fa-user-alt'></i></a>
+    
+    </nav>
+
+    <section id="login1">
+        <form id="loginform" name="loginform">
+            <h1>Log In</h1>
+
+            <div class="formtype">
+                <label for="email">E-Mail</label>
+                <input 
+                type="text" 
+                id="email" 
+                name="email" 
+                placeholder="e-Mail... (e.g. 'mailname@mail.com')" 
+                spellcheck="false"
+                required>
+                <div class="error" id="emailError"></div>
+            </div>
+
+            <div class="formtype">
+                <label for="password">Password</label>
+                <input 
+                type="password" 
+                id="password" 
+                name="password" 
+                placeholder="Passsword..." 
+                required>
+                <div class="error" id="PasswordError"></div>
+            </div>
+
+            <button onclick="" id="submit" type="submit">Submit</button>
+
+            <div class="signup">
+                <p>Don't have an account? <a href="../FinalAssignment/signup.html">Sign Up Now!</a></p>
+            </div>
+        </form>
+
+        <div id="blur">
+            <div class="popup" id="popup">
+                <p class="onsubmit">You have logged in!</p><br>
+                <p class="close">Click to close</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        
+        <div class="foothead">
+            <div class="foot">
+                <h4>HELPFUL LINKS</h4>
+                <ul>
+                    <li><a href="">First Time Visitors</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="https://www.mofa.go.jp/j_info/visit/visa/index.html">Visa Information</a></li>
+                </ul>
+            </div>
+
+            <div class="foot">
+                <h4>JOIN OUR COMMUNITY</h4>
+                <ul>
+                    <li><a href="">Newsletter</a></li>
+                </ul>
+            </div>
+
+            <div class="foot">
+                <h4>ABOUT US</h4>
+                <ul>
+                    <li><a href="../FinalAssignment/main.html#target3">Our Mission</a></li>
+                    <li><a href="../FinalAssignment/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="foot">
+                <h4>MISCELLANEOUS</h4>
+                <ul>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Cookie Policy</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Links</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footleg">
+            <div class="foot">
+                <div class="foottitle">
+                    TRAVEL <span>JAPAN</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="js/scriptlogin.js"></script>
+</body>
+
+</html>

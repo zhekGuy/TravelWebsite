@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Travel Japan</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/csscontact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+
+        <a class="main1" href="../FinalAssignment/main.html">TRAVEL JAPAN</a>
+
+        <div class="dropdown">
+            <a class="dropbtn" href="destinations.html">Destinations</a>
+                <div class="dropdown-content">
+                    <a href="destinations.html#targettour1">Tokyo</a>
+                    <a href="destinations.html#targettour2">Kyoto</a>
+                    <a href="destinations.html#targettour3">Osaka</a>
+                    <a href="destinations.html#targettour4">Hiroshima</a>
+                    <a href="destinations.html#targettour5">Nara</a>
+                </div>
+        </div>
+
+        <a class="main3" href="../FinalAssignment/main.html#target3">About Us</a>
+    
+        <a class="main4" href="contact.html">Contact Us</a>
+
+        <a class="login" href="login.html"><i class='fas fa-user-alt'></i></a>
+    
+    </nav>
+
+    <section id="contact1">
+        <form id="contactform" name="contactform">
+                <h1>Contact Us</h1>
+                <div class="formtype">
+                    <label for="fname">First name</label>
+                    <input 
+                        type="text" 
+                        id="fname" 
+                        name="fname" 
+                        placeholder="First name..." 
+                        spellcheck="false"
+                        required>
+                    <div class="error" id="firstNameError"></div>
+                </div>
+
+                <div class="formtype">
+                    <label for="lname">Last name</label>
+                    <input 
+                        type="text" 
+                        id="lname" 
+                        name="lname" 
+                        placeholder="Last name..." 
+                        spellcheck="false"
+                        required>
+                    <div class="error" id="lastNameError"></div>
+                </div>
+
+                <div class="formtype">
+                    <label for="phone">Phone number</label>
+                    <div id="phoneno">
+                        <select name="countrycode" id="countrycode">
+                            <option value="" disabled selected>Select country code</option>
+                            <option value="+60">Malaysia (+60)</option>
+                            <option value="+1">United States (+1)</option>
+                            <option value="+44">United Kingdom (+44)</option>
+                            <option value="+65">Singapore (+65)</option>
+                            <option value="+91">India (+91)</option>
+                            <option value="+61">Australia (+61)</option>
+                        </select>
+
+                        <input 
+                            type="tel" 
+                            id="phone" 
+                            name="phone" 
+                            placeholder="Tel..."
+                            spellcheck="false"
+                            required>
+                    </div>
+                    <div class="error" id="codeError"></div>
+                    <div class="error" id="phoneError"></div>
+                </div>
+
+                <div class="formtype">
+                    <label for="email">E-Mail</label>
+                    <input 
+                    type="text" 
+                    id="email" 
+                    name="email" 
+                    placeholder="e-Mail... (e.g. 'mailname@mail.com')" 
+                    spellcheck="false"
+                    required>
+                    <div class="error" id="emailError"></div>
+                </div>
+
+                <div class="formtype">
+                    <label for="msg">Message</label>
+                    <textarea 
+                    id="msg" 
+                    name="msg" 
+                    rows="10" 
+                    placeholder="Provide a message..."
+                    spellcheck="false"
+                    ></textarea>
+                    <div class="error" id="messageError"></div>
+                </div>
+
+                <button id="submit" type="submit">Submit</button>
+            </form>
+            
+            <div id="blur">
+                <div class="popup" id="popup">
+                    <p class="onsubmit">Your inquiry has been submitted!</p><br>
+                    <p class="close">Click to close</p>
+                </div>
+            </div>
+
+    </section>
+
+    <footer>
+        
+        <div class="foothead">
+            <div class="foot">
+                <h4>HELPFUL LINKS</h4>
+                <ul>
+                    <li><a href="">First Time Visitors</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="https://www.mofa.go.jp/j_info/visit/visa/index.html">Visa Information</a></li>
+                </ul>
+            </div>
+
+            <div class="foot">
+                <h4>JOIN OUR COMMUNITY</h4>
+                <ul>
+                    <li><a href="">Newsletter</a></li>
+                </ul>
+            </div>
+
+            <div class="foot">
+                <h4>ABOUT US</h4>
+                <ul>
+                    <li><a href="../FinalAssignment/main.html#target3">Our Mission</a></li>
+                    <li><a href="../FinalAssignment/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="foot">
+                <h4>MISCELLANEOUS</h4>
+                <ul>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Cookie Policy</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Links</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footleg">
+            <div class="foot">
+                <div class="foottitle">
+                    TRAVEL <span>JAPAN</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="js/scriptcontact.js"></script>
+</body>
+
+</html>
